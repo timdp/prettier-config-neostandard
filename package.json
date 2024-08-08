@@ -1,0 +1,36 @@
+{
+  "name": "prettier-config-neostandard",
+  "description": "A Prettier shareable config for neostandard.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timdp/prettier-config-neostandard.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "prettierconfig",
+    "neostandard"
+  ],
+  "author": {
+    "name": "Tim De Pauw",
+    "url": "https://tmdpw.eu"
+  },
+  "type": "module",
+  "main": "prettier.config.js",
+  "files": [],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/timdp"
+  }
+}
